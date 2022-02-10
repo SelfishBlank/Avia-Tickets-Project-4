@@ -1,0 +1,32 @@
+{
+  "name": "webpackavia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "dev:watch": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "javascript",
+    "webpack",
+    "avia"
+  ],
+  "author": "Askar Akbar",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.66.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "date-fns": "^2.28.0",
+    "materialize-css": "^1.0.0-rc.2"
+  }
+}
